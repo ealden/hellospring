@@ -8,4 +8,6 @@ repositories {
 
 dependencies {
     providedCompile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+
+    compile group: 'org.springframework', name: 'spring-context', version: '4.0.6.RELEASE'
 }
